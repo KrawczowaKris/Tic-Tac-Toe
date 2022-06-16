@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic-Tac-Toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="interface">
+            <div>
+                <div class="statistics">
+                    <div class="stats r">Статистика</div>
+                    <div class="stats">
+                        <div class="tableStats t">X</div>
+                        <div class="tableStats" id="winX">0</div>
+                    </div>
+                    <div class="stats">
+                        <div class="tableStats t">O</div>
+                        <div class="tableStats" id="winO">0</div>
+                    </div>
+                    <div class="stats">
+                        <div class="tableStats t">Ничьи</div>
+                        <div class="tableStats" id="so">0</div>
+                    </div>
+                    <div id="chod">
+                        Сейчас ходит: X
+                    </div>
+                    <div id="note"></div>
+                </div>
+            </div>
+            <div>
+                <div id="area"></div> 
+                <div>
+                    <button name="new_game" value="New game" id="NG">
+                        Новая игра
+                    </button>
+                </div>  
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
